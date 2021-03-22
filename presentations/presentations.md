@@ -4,8 +4,10 @@ Most of the presentations here are created using [ReMarkJS](https://remarkjs.com
 
 Here is the list
 
-- [computer_controlled_cutting](computer_controlled_cutting/computer_controlled_cutting.html)
+- [Computer_Controlled_Cutting](computer_controlled_cutting/computer_controlled_cutting.html)
+- [Arduino - Getting Started](arduino_getting_started/arduino_getting_started.html)
 
+Built with [remarkjs](https://remarkjs.com)
 
 ----
 
