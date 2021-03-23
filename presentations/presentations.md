@@ -5,7 +5,10 @@ Most of the presentations here are created using [ReMarkJS](https://remarkjs.com
 Here is the list
 
 - [Computer_Controlled_Cutting](computer_controlled_cutting/computer_controlled_cutting.html)
-- [Arduino - Getting Started](arduino_getting_started/arduino_getting_started.html)
+- Embedded Programming
+    - [Arduino - Getting Started](arduino_getting_started/arduino_getting_started.html)
+    - [Arduino Using Windows](arduino_using_windows/arduino_using_windows.html) shows how to setup your Arduino Clone in Windows 10
+    - [Arduino UNO moving to Nano](arduino_moving_to_nano/arduino_moving_to_nano.html) shows how to transfer your project from the UNO to the Nano board.
 
 Built with [remarkjs](https://remarkjs.com)
 

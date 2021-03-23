@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
+    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
+    <title>Arduino Using Windows</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Trebuchet+MS);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Trebuchet MS';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 0.5em;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+      .left-column-60 {
+        width: 60%;
+        height: 92%;
+        float: left;
+      }
+      .right-column-35 {
+        width: 35%;
+        float: right;
+        padding-top: 1em;
+      }
+      .left-column-50 {
+        width: 48%;
+        height: 92%;
+        float: left;
+      }
+      .right-column-50 {
+        width: 48%;
+        float: right;
+      }
+      .blue {
+        color: #0000FF;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+name: default-page
+layout: true
+background-image: url("fablabsp_icon_100px.png")
+background-position: 98% 2%
+
+---
+
+class: center, middle
+
+# Arduino Using Windows
+
+
+.footnote[ [Arduino Notes](https://rdorville.github.io/EP1000/arduino/arduinoProgramming.html) ]
+
+---
+
+template: default-page
+layout: false
+
+# UNO boards
+
+### There are mainly 2 types of UNO boards
+
+
+.left-column-50[
+<img src="arduino_uno.png" style="width:270px">
+
+- [Arduino Uno Rev 3](https://store.arduino.cc/usa/arduino-uno-rev3)
+- Uses the ATMega328 processor in a DIP28 form factor
+- Uses the FTDI USB interface IC
+- USB Drivers built into MS Windows
+
+]
+
+.right-column-50[
+<img src="uno_clone.png" style="width:280px">
+
+- UNO Clones
+- Uses the ATMega328P processor in a TQFP32 form factor
+- Uses the CH340 USB interface IC 
+- May need to install the drivers into MS-Windows
+]
+
+
+.footer[How to Install [CH340 Drivers for Windows](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)]
+---
+
+template: default-page
+layout: false
+
+# Which COM port to use?
+
+.left-column-50[
+  <img src="device_manager.png" style="width:300px">
+]
+
+.right-column-50[
+
+- Install the CH340 drivers, if necessary
+- Open .blu[Device Manager], look for .blue[Ports (COM & LPT)]
+- If installed, COM port will be listed.
+- Use this port in<br>
+ArduinoIDE > Tools > Ports
+
+<img src="port_assignment.png" style="width:350px">
+]
+
+---
+class: center, middle
+
+# Arduino Using Windows
+
+### .red[End]
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+    <script src="https://remarkjs.com/remark.language.js"></script>
+    <script>
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'remark',
+          highlightLines: true
+        }) ;
+    </script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-44561333-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.scripts[0];
+        s.parentNode.insertBefore(ga, s);
+      }());
+    </script>
+  </body>
+</html>

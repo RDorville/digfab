@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
+    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
+    <title>Moving from UNO to Nano</title>
+    <link rel="stylesheet" type="text/css" href="presentation.css" >
+  </head>
+  <body>
+    <textarea id="source">
+
+name: default-page
+layout: true
+background-image: url("fablabsp_icon_100px.png")
+background-position: 98% 2%
+
+---
+
+class: center, middle
+
+# Moving from UNO to Nano
+
+
+---
+
+template: default-page
+layout: false
+
+# UNO vs Nano boards
+
+### Both boards were developed by Arduino based on ATMega328 processor
+
+.left-column-50[
+<img src="arduino_uno.png" style="width:270px">
+
+- ATMega328 / ATMega328P
+- Size 68.6 x 53.3 mm
+- USB A connector, External Power Source
+- Price $37.50 ($5 clone)
+
+]
+
+.right-column-50[
+<img src="arduino_nano.png" style="width:200px">
+
+- ATMega328P
+- Size 43.2 x 18.5 mm
+- USB Type Mini connector
+- Price $32 ($5 clone)
+
+]
+
+---
+
+template: default-page
+layout: false
+
+# Workflow
+
+.left-column-50[
+
+- Develop your code on the UNO
+- Test with peripherals, devices, connections
+- Transfer connections to Nano 
+- Compile, Upload code as usual
+
+### Difference
+
+- Need to select Nano as processor board
+- Need to select Processor: ATMega328P > Old Bootloader
+]
+
+.right-column-50[
+
+<img src="ide_select_nano.png" style="width: 350px">
+
+]
+
+---
+class: center, middle
+
+# Moving from UNO to Nano
+
+### .red[End]
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+    <script src="https://remarkjs.com/remark.language.js"></script>
+    <script>
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'remark',
+          highlightLines: true
+        }) ;
+    </script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-44561333-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.scripts[0];
+        s.parentNode.insertBefore(ga, s);
+      }());
+    </script>
+  </body>
+</html>
