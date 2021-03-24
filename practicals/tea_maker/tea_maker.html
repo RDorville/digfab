@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
+    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
+    <title>Modelling 3D Objects - Tea Maker</title>
+    <link rel="stylesheet" type="text/css" href="presentation.css" >
+  </head>
+  <body>
+    <textarea id="source">
+
+name: default-page
+layout: true
+background-image: url("fablabsp_icon_100px.png")
+background-position: 98% 2%
+
+---
+
+class: center, middle
+
+# Modelling 3D Objects - Tea Maker
+
+### 3D Modelling, 3D Printing, Laser cutting, Microcontroller, Servo Motor
+
+
+---
+
+template: default-page
+layout: false
+
+# Overview
+
+### Let's sketch the project
+
+.left-column-50[
+
+<img src="overview.png" style="width:300px" />
+
+]
+
+.right-column-50[
+
+- Arm to hold/rise/drop teabag
+- Motor to move the arm
+- Riser to let the arm be above the tea cup
+- Base to hold the tea cup
+- Studs/stands to have proper stability
+- Housing for CPU and Riser
+
+]
+
+---
+template: default-page
+layout: false
+
+# Component parts
+
+.left-column-50[
+
+<img src="exploded_view.png" style="width:320px" />
+
+]
+
+.right-column-50[
+
+- We can design the entire project on the laptop
+- We can then 
+  - 3D print the housing
+  - 2D laser cut the other component parts
+  - test the electronics
+
+### Without going to the respective labs!
+
+### .blue[Digital Fabrication]
+
+]
+
+---
+template: default-page
+layout: false
+
+# Component parts
+
+.right-column-35[
+
+- Each part is a .blue[COMPONENT]
+- Start with the base (as the ground)
+- Create the other components from the base
+- Or, use joints (advanced!)
+
+### Base
+
+- One point on the .blue[ORIGIN]
+- Use a parameter for thickness
+- Use constraints to draw the object
+- Extrude the profile to get a 3D object
+]
+
+.left-column-60[
+
+<img src="base_profile.png" style="width:450px" />
+
+]
+
+---
+template: default-page
+layout: false
+
+# Fusion 360 - Constraints
+
+### Constraints assist in "fixing" your sketchs
+
+### Tips
+
+- start drawing from the .blue[ORIGIN]
+- base all further drawing from the origin point
+- use parameters for dimensions that may change (e.g. thickness)
+- use .blue[CONSTRAINTS] instead of "eyeballing"
+  - Horizontal, Vertical
+  - Coincident, Collinear
+  - Tangent
+  - Parallel, Perpendicular
+  - Equidistant
+
+### Now, draw the base component
+
+.footer.right[[Kevin Kennedy - How to Add Sketch Constraints](https://youtu.be/BGwBZJ14KHQ)]
+
+---
+template: default-page
+layout: false
+
+# Base
+
+<img src="base_profile.png" style="width:700px" />
+
+Extrude the profile to form the 3D body.
+
+---
+template: default-page
+layout: false
+
+# Riser
+
+<img src="create_riser.png" style="width:600px" />
+
+- Use the "slot" profile
+- Extrude to create the riser bar
+- Create as a .blue[New Component]
+
+---
+template: default-page
+layout: false
+
+# Slot for Motor
+
+<img src="riser_profile.png" style="width:600px" />
+
+- Make the Riser component .blue[Active]
+- Create a sketch on the face of the Riser
+- Extrude to create the opening for the motor
+
+---
+template: default-page
+layout: false
+
+# Complete the Design
+
+<img src="teamaker_drawing.png" style="width:700px" />
+
+### Plans: [tea maker plans](teamaker_drawing_v1.pdf)
+
+---
+template: default-page
+layout: false
+
+# Extracting Profiles for Cutting
+
+<img src="extracting_2d_profile.png" style="width:600px" />
+
+- Turn OFF parts that are not in the profile
+- Create a .blue[NEW] sketch on the profile plane
+- Select the object on the plane
+- Close the sketch
+- Export the sketch to DXF
+
+---
+template: default-page
+layout: false
+
+# Save profile as DXF file
+
+.left-column-50[
+
+<img src="save_to_DXF.png" style="width:350px" />
+]
+
+.right-column-50[
+
+- .blue[DXF] Data Interchange Format, a simple 2D format developed by AutoDesk
+- Most cutting machines accept DXF files
+
+###Tip:
+
+- Check your DXF file using [LibreCAD](https://librecad.org/) ]
+]
+
+
+---
+template: default-page
+layout: false
+
+# Exercise
+
+### Use Fusion 360 to draw the base, riser, spacers
+
+### Export the base profile to DXF for laser cutting
+
+.footer.right[You can, also, export the riser and spaces, as well.]
+
+---
+class: center, middle
+
+# Tea Maker
+
+### .red[End]
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+    <script src="https://remarkjs.com/remark.language.js"></script>
+    <script>
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'remark',
+          highlightLines: true
+        }) ;
+    </script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-44561333-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.scripts[0];
+        s.parentNode.insertBefore(ga, s);
+      }());
+    </script>
+  </body>
+</html>

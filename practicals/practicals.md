@@ -1,6 +1,6 @@
 # Practicals
 
-**Nothing to see here yet!**
+- [Modelling 3D Objects (Tea Maker)](tea_maker/tea_maker.html)
 
 
 ----
