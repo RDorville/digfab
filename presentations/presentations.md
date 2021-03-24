@@ -9,6 +9,8 @@ Here is the list
     - [Arduino - Getting Started](arduino_getting_started/arduino_getting_started.html)
     - [Arduino Using Windows](arduino_using_windows/arduino_using_windows.html) shows how to setup your Arduino Clone in Windows 10
     - [Arduino UNO moving to Nano](arduino_moving_to_nano/arduino_moving_to_nano.html) shows how to transfer your project from the UNO to the Nano board.
+- Output Devices
+	- [Servo Motors](output_servo_motor/output_servo_motor.html)
 
 Built with [remarkjs](https://remarkjs.com)
 
