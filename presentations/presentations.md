@@ -13,7 +13,7 @@ Here is the list
 - Output Devices
 	- [Servo Motors](output_servo_motor/output_servo_motor.html)
 
-Built with [remarkjs](https://remarkjs.com)
+Enjoy!
 
 ----
 

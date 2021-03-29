@@ -24,8 +24,25 @@
 			"settings":
 			{
 				"buffer_size": 4968,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "presentations/presentations.md",
+			"settings":
+			{
+				"buffer_size": 900,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "practicals/tea_maker/presentation.css",
+			"settings":
+			{
+				"buffer_size": 2549,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -105,16 +122,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/rodney/Documents/github/digfab",
-		"/home/rodney/Documents/github/digfab/practicals",
-		"/home/rodney/Documents/github/digfab/practicals/tea_maker",
-		"/home/rodney/Documents/github/digfab/presentations"
+		"/D/DATA/github/digfab",
+		"/D/DATA/github/digfab/presentations",
+		"/D/DATA/github/digfab/presentations/output_servo_motor"
 	],
 	"file_history":
 	[
-		"/home/rodney/Documents/github/digfab/presentations/arduino_getting_started/arduino_getting_started.html",
-		"/home/rodney/Documents/github/digfab/presentations/arduino_using_windows/arduino_using_windows.html",
-		"/home/rodney/Documents/github/digfab/presentations/arduino_moving_to_nano/arduino_moving_to_nano.html",
+		"/D/DATA/github/temp_pres/output_servo_motor.html",
+		"/D/DATA/github/digfab/presentations/arduino_getting_started/arduino_getting_started.html",
+		"/D/DATA/github/digfab/presentations/arduino_using_windows/arduino_using_windows.html",
+		"/D/DATA/github/digfab/practicals/tea_maker/output_servo_motor.html",
+		"/D/DATA/github/digfab/presentations/arduino_moving_to_nano/arduino_moving_to_nano.html",
+		"/D/DATA/github/digfab/practicals/practicals.md",
 		"/home/rodney/Documents/github/digfab/presentations/presentations.md",
 		"/home/rodney/Documents/github/digfab/presentations/output_servo_motor/output_servo_motor.html",
 		"/home/rodney/Documents/github/digfab/presentations/computer_controlled_cutting/computer_controlled_cutting.html",
@@ -236,10 +255,7 @@
 		"/home/rodney/Downloads/complete/flac windham hill  christmas II.1/Various - Windham Hill The Carols Of Christmas II.cue",
 		"/home/rodney/Downloads/complete/flac windham hill  christmas II.1/00. The Carols Of Christmas II.nfo",
 		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/template",
-		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/filelist",
-		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/Various - Windham Hill Celtic Christmas II.cue",
-		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/00. Celtic Christmas II.nfo",
-		"/home/rodney/Music/done/cdimages/Christmas/2001-Various-Windham Hill Celtic Christmas Silver Anniversary Edition/Various - Windham Hill Celtic Christmas Silver Anniversary Edition.cue"
+		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/filelist"
 	],
 	"find":
 	{
@@ -421,7 +437,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -437,110 +453,81 @@
 						"selection":
 						[
 							[
-								3613,
-								3613
+								3630,
+								3630
 							]
 						],
 						"settings":
 						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										3609,
-										3612
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										3609,
-										3612
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3843.0,
+						"translation.y": 282.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "presentations/presentations.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								849,
+								849
+							]
+						],
+						"settings":
+						{
+							"parser": null,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
+							"target": "disk"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "practicals/tea_maker/presentation.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2202,
+								2202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1680.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -552,7 +539,7 @@
 	},
 	"input":
 	{
-		"height": 42.0
+		"height": 58.4
 	},
 	"layout":
 	{
