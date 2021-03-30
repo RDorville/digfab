@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 # Digital Fabrication
 
 This is a collection of my notes, practicals, presentations on Digital Fabrication.
