@@ -3,10 +3,11 @@
 29th March 2021
 
 Contents:
-    - [Background](#background)
-    - [Task](#task)
-    - [Submission](#submission)
-    - [Tips](#tips)
+
+- [Background](#background)
+- [Task](#task)
+- [Submission](#submission)
+- [Tips](#tips)
 
 &nbsp;
 ----
