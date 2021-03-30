@@ -1,6 +1,6 @@
 # Engineering Academy Documentation Assignment
 
-##Background
+## Background
 
 We have covered the following in the morning session:
 
@@ -12,7 +12,7 @@ We have covered the following in the morning session:
 
 &nbsp;
 
-##Task
+## Task
 
 You are required to complete the following to show that you have an understanding of the importance and need for good documentation.
 
@@ -45,7 +45,7 @@ You are required to complete the following to show that you have an understandin
 
 &nbsp;
 
-##Submission
+## Submission
 
 1. You are given one week to complete this assignment, the deadline is **5th April 2021**
 
@@ -64,7 +64,7 @@ You are required to complete the following to show that you have an understandin
 
 &nbsp;
 
-##Tips
+## Tips
 
 1. If you are using Windows, make sure that all your filenames, urls, links follow the following rules:
   - do not mix upper and lower case, try to use **ONLY** lower case as far as possible.
@@ -83,7 +83,7 @@ Also, please identify yourself so that I know who I am messaging.
 
 &nbsp;
 
-##Enjoy!
+## Enjoy!
 
 
 
