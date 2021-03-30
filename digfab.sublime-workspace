@@ -20,11 +20,28 @@
 	"buffers":
 	[
 		{
-			"file": "practicals/tea_maker/tea_maker.html",
+			"file": "presentations/project_documentation/project_documentation.html",
 			"settings":
 			{
-				"buffer_size": 4968,
+				"buffer_size": 14599,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "presentations/project_documentation/presentation_1_00.css",
+			"settings":
+			{
+				"buffer_size": 2777,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rodney/Downloads/temp/ReMarkDemo/remarkdemo.html",
+			"settings":
+			{
+				"buffer_size": 11553,
 				"line_ending": "Unix"
 			}
 		}
@@ -40,6 +57,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"package Control In",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Add Channel"
+			],
 			[
 				"remove",
 				"Package Control: Remove Package"
@@ -106,16 +131,20 @@
 	"expanded_folders":
 	[
 		"/home/rodney/Documents/github/digfab",
-		"/home/rodney/Documents/github/digfab/practicals",
-		"/home/rodney/Documents/github/digfab/practicals/tea_maker",
-		"/home/rodney/Documents/github/digfab/presentations"
+		"/home/rodney/Documents/github/digfab/presentations",
+		"/home/rodney/Documents/github/digfab/presentations/arduino_getting_started"
 	],
 	"file_history":
 	[
+		"/home/rodney/Documents/github/digfab/presentations/project_documentation/presentation_1_00.css",
+		"/home/rodney/Documents/github/digfab/presentations/presentations.md",
 		"/home/rodney/Documents/github/digfab/presentations/arduino_getting_started/arduino_getting_started.html",
+		"/home/rodney/Documents/github/digfab/presentations/arduino_getting_started/presentation_1_00.css",
+		"/home/rodney/Documents/github/digfab/practicals/tea_maker/tea_maker.html",
+		"/home/rodney/bin/hbmake",
+		"/home/rodney/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
 		"/home/rodney/Documents/github/digfab/presentations/arduino_using_windows/arduino_using_windows.html",
 		"/home/rodney/Documents/github/digfab/presentations/arduino_moving_to_nano/arduino_moving_to_nano.html",
-		"/home/rodney/Documents/github/digfab/presentations/presentations.md",
 		"/home/rodney/Documents/github/digfab/presentations/output_servo_motor/output_servo_motor.html",
 		"/home/rodney/Documents/github/digfab/presentations/computer_controlled_cutting/computer_controlled_cutting.html",
 		"/home/rodney/Downloads/temp/arduino_getting_started/arduino_getting_started.html",
@@ -137,7 +166,6 @@
 		"/home/rodney/Documents/series-21-03-16.txt",
 		"/home/rodney/.config/joplin-desktop/edit-e380b8e12cad499dba3517ea0baa1f36.md",
 		"/home/rodney/bin/filetest.sh",
-		"/home/rodney/bin/hbmake",
 		"/home/rodney/.config/joplin-desktop/edit-51ecf2422f33425a90e18490d0ef2c02.md",
 		"/home/rodney/Downloads/flameshot/README.md",
 		"/home/rodney/Downloads/cmake/cmake-3.20.0-rc3-linux-x86_64.sh",
@@ -235,11 +263,7 @@
 		"/home/rodney/Downloads/complete/flac windham hill  christmas II.1/filelist",
 		"/home/rodney/Downloads/complete/flac windham hill  christmas II.1/Various - Windham Hill The Carols Of Christmas II.cue",
 		"/home/rodney/Downloads/complete/flac windham hill  christmas II.1/00. The Carols Of Christmas II.nfo",
-		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/template",
-		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/filelist",
-		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/Various - Windham Hill Celtic Christmas II.cue",
-		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/00. Celtic Christmas II.nfo",
-		"/home/rodney/Music/done/cdimages/Christmas/2001-Various-Windham Hill Celtic Christmas Silver Anniversary Edition/Various - Windham Hill Celtic Christmas Silver Anniversary Edition.cue"
+		"/home/rodney/Downloads/complete/flac windham hill  celtic christmas II/template"
 	],
 	"find":
 	{
@@ -257,6 +281,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"width:800px",
+			"footnote",
+			"footer",
 			"servo_9",
 			"###",
 			"http://",
@@ -381,9 +408,6 @@
 			"XX",
 			"- found.",
 			"Target:",
-			"XX",
-			"- found.",
-			"Target:",
 			"XX"
 		],
 		"highlight": true,
@@ -426,19 +450,481 @@
 			[
 				{
 					"buffer": 0,
-					"file": "practicals/tea_maker/tea_maker.html",
+					"file": "presentations/project_documentation/project_documentation.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4968,
+						"buffer_size": 14599,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3613,
-								3613
+								13958,
+								13958
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "presentations/project_documentation/presentation_1_00.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2777,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2333,
+										2337
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										2322,
+										2322
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_0000FFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2734,
+										2741
+									]
+								],
+								"scope": "col_0000FFFF"
+							},
+							"col_0000FFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0000FFFF_circle.png",
+								"regions":
+								[
+									[
+										2723,
+										2723
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00FF00FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2766,
+										2773
+									]
+								],
+								"scope": "col_00FF00FF"
+							},
+							"col_00FF00FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00FF00FF_circle.png",
+								"regions":
+								[
+									[
+										2755,
+										2755
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_272822FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1329,
+										1336
+									]
+								],
+								"scope": "col_272822FF"
+							},
+							"col_272822FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_272822FF_circle.png",
+								"regions":
+								[
+									[
+										1313,
+										1313
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_333333FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1384,
+										1388
+									]
+								],
+								"scope": "col_333333FF"
+							},
+							"col_333333FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_333333FF_circle.png",
+								"regions":
+								[
+									[
+										1358,
+										1358
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_373832FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1013,
+										1020
+									]
+								],
+								"scope": "col_373832FF"
+							},
+							"col_373832FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_373832FF_circle.png",
+								"regions":
+								[
+									[
+										991,
+										991
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_777777FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1859,
+										1863
+									],
+									[
+										1898,
+										1902
+									],
+									[
+										1929,
+										1933
+									],
+									[
+										2204,
+										2208
+									]
+								],
+								"scope": "col_777777FF"
+							},
+							"col_777777FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_777777FF_circle.png",
+								"regions":
+								[
+									[
+										1829,
+										1829
+									],
+									[
+										1865,
+										1865
+									],
+									[
+										1904,
+										1904
+									],
+									[
+										2193,
+										2193
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_777872FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1349,
+										1356
+									]
+								],
+								"scope": "col_777872FF"
+							},
+							"col_777872FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_777872FF_circle.png",
+								"regions":
+								[
+									[
+										1338,
+										1338
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_E7E8E2FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										852,
+										859
+									]
+								],
+								"scope": "col_E7E8E2FF"
+							},
+							"col_E7E8E2FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_E7E8E2FF_circle.png",
+								"regions":
+								[
+									[
+										836,
+										836
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F3F3F3FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1431,
+										1438
+									]
+								],
+								"scope": "col_F3F3F3FF"
+							},
+							"col_F3F3F3FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F3F3F3FF_circle.png",
+								"regions":
+								[
+									[
+										1420,
+										1420
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F92672FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										780,
+										797
+									]
+								],
+								"scope": "col_F92672FF"
+							},
+							"col_F92672FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F92672FF_circle.png",
+								"regions":
+								[
+									[
+										769,
+										769
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FA0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										713,
+										720
+									]
+								],
+								"scope": "col_FA0000FF"
+							},
+							"col_FA0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FA0000FF_circle.png",
+								"regions":
+								[
+									[
+										702,
+										702
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1982,
+										1986
+									],
+									[
+										2129,
+										2133
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										1966,
+										1966
+									],
+									[
+										2113,
+										2113
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								2722,
+								2722
 							]
 						],
 						"settings":
@@ -450,24 +936,24 @@
 								{
 									"1":
 									[
-										3609,
-										3612
+										2743,
+										2744
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										3609,
-										3612
+										2721,
+										2722
 									]
 								},
 								"unmatched":
@@ -481,66 +967,502 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/rodney/Downloads/temp/ReMarkDemo/remarkdemo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11553,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3064,
+										3068
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										3047,
+										3047
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_272822FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1822,
+										1829
+									]
+								],
+								"scope": "col_272822FF"
+							},
+							"col_272822FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_272822FF_circle.png",
+								"regions":
+								[
+									[
+										1802,
+										1802
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_333333FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1885,
+										1889
+									]
+								],
+								"scope": "col_333333FF"
+							},
+							"col_333333FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_333333FF_circle.png",
+								"regions":
+								[
+									[
+										1855,
+										1855
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_373832FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1408,
+										1415
+									]
+								],
+								"scope": "col_373832FF"
+							},
+							"col_373832FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_373832FF_circle.png",
+								"regions":
+								[
+									[
+										1348,
+										1348
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_777777FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2475,
+										2479
+									],
+									[
+										2518,
+										2522
+									],
+									[
+										2553,
+										2557
+									],
+									[
+										2904,
+										2908
+									]
+								],
+								"scope": "col_777777FF"
+							},
+							"col_777777FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_777777FF_circle.png",
+								"regions":
+								[
+									[
+										2441,
+										2441
+									],
+									[
+										2481,
+										2481
+									],
+									[
+										2524,
+										2524
+									],
+									[
+										2889,
+										2889
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_777872FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1846,
+										1853
+									]
+								],
+								"scope": "col_777872FF"
+							},
+							"col_777872FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_777872FF_circle.png",
+								"regions":
+								[
+									[
+										1831,
+										1831
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_E7E8E2FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1231,
+										1238
+									]
+								],
+								"scope": "col_E7E8E2FF"
+							},
+							"col_E7E8E2FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_E7E8E2FF_circle.png",
+								"regions":
+								[
+									[
+										1211,
+										1211
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F3F3F3FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1947,
+										1954
+									]
+								],
+								"scope": "col_F3F3F3FF"
+							},
+							"col_F3F3F3FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F3F3F3FF_circle.png",
+								"regions":
+								[
+									[
+										1932,
+										1932
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F92672FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1140,
+										1157
+									]
+								],
+								"scope": "col_F92672FF"
+							},
+							"col_F92672FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F92672FF_circle.png",
+								"regions":
+								[
+									[
+										1125,
+										1125
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FA0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1061,
+										1068
+									]
+								],
+								"scope": "col_FA0000FF"
+							},
+							"col_FA0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FA0000FF_circle.png",
+								"regions":
+								[
+									[
+										1041,
+										1041
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8011,
+										8014
+									]
+								],
+								"scope": "col_FF0000FF"
+							},
+							"col_FF0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
+								"regions":
+								[
+									[
+										7996,
+										7996
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2621,
+										2625
+									],
+									[
+										2803,
+										2807
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										2601,
+										2601
+									],
+									[
+										2783,
+										2783
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								3237,
+								3237
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3843.0,
+						"translation.y": 2520.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -630,7 +1552,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 285.0,
 	"status_bar_visible": true,
 	"template_settings":
