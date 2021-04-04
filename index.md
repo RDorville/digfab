@@ -8,6 +8,7 @@ Here is a quick site link:
 - [EP1000 Digital Fabrication](https://rdorville.github.io/EP1000) which is the main notes page
 - [Presentations](presentations/presentations.md) which will host most of the presentations
 - [Practicals](practicals/practicals.md) which should hold the various practicals that I have written.
+- [Examples](examples/examples.md) of student's work
 
 Enjoy!
 
