@@ -3,9 +3,27 @@
 
 Here are some examples of student work over the periods
 
+### 2020
+
+
+
+
+
 ### 2021
+
+- EP1000
+    - 2021 Sem 1
+        - [Group 1](https://rdorville@github.io/EP1000/classes/S2021Sem1_01.md)
+    - 2021 Sem 2
+        - [Group 1](https://rdorville@github.io/EP1000/classes/S2021Sem2_01.md)
+        - [Group 2](https://rdorville@github.io/EP1000/classes/S2021Sem2_02.md)
 
 - [EA Camp 29-30th March 2021](ea_camp_2021_03_29.md) featuring
 	- Documentation
 	- 3D Design
 	- T-shirt Making 
+
+
+&nbsp;
+
+[Home](https://rdorville.github.io/digfab)
