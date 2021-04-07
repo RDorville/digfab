@@ -1,0 +1,368 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ext",
+				"EXT"
+			],
+			[
+				"lis",
+				"lis3mdl"
+			],
+			[
+				"mdl",
+				"mdl\tmdlink"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package Control In",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Add Channel"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Markdown Hyperlink"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"markdwon",
+				"Snippet: Markdown Hyperlink"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install Packag",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rodney/Documents/github/digfab"
+	],
+	"file_history":
+	[
+		"/home/rodney/Documents/github/digfab/editorconfig.org",
+		"/home/rodney/Documents/github/digfab/examples/test.md",
+		"/home/rodney/Documents/github/digfab/examples/ea_camp_2021_03_29.md",
+		"/home/rodney/.config/sublime-text-3/Packages/User/RDPredawn Monokai.tmTheme",
+		"/home/rodney/.config/sublime-text-3/Packages/User/Markdown.sublime-settings",
+		"/home/rodney/.config/sublime-text-3/Packages/User/RDPredawn Monokai.tmTheme.chback",
+		"/home/rodney/.config/sublime-text-3/Packages/User/predawn.tmTheme",
+		"/home/rodney/.config/sublime-text-3/Packages/User/predawn.sublime-theme",
+		"/home/rodney/Documents/github/engacad/.git/config",
+		"/home/rodney/Documents/github/engacad/_config.yml",
+		"/media/rodney/OVA1T/hbmake",
+		"/home/rodney/.config/joplin-desktop/edit-e380b8e12cad499dba3517ea0baa1f36.md",
+		"/home/rodney/bin/hbmake",
+		"/home/rodney/bin/hb480.sh",
+		"/home/rodney/bin/hbtest.sh",
+		"/home/rodney/Documents/github/digfab/presentations/project_documentation/presentation_1_00.css",
+		"/home/rodney/Documents/github/digfab/presentations/presentations.md",
+		"/home/rodney/Documents/github/digfab/presentations/arduino_getting_started/arduino_getting_started.html",
+		"/home/rodney/Documents/github/digfab/presentations/arduino_getting_started/presentation_1_00.css",
+		"/home/rodney/Documents/github/digfab/practicals/tea_maker/tea_maker.html",
+		"/home/rodney/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/home/rodney/Documents/github/digfab/presentations/arduino_using_windows/arduino_using_windows.html",
+		"/home/rodney/Documents/github/digfab/presentations/arduino_moving_to_nano/arduino_moving_to_nano.html",
+		"/home/rodney/Documents/github/digfab/presentations/output_servo_motor/output_servo_motor.html",
+		"/home/rodney/Documents/github/digfab/presentations/computer_controlled_cutting/computer_controlled_cutting.html",
+		"/home/rodney/Downloads/temp/arduino_getting_started/arduino_getting_started.html",
+		"/home/rodney/Downloads/temp/test/index.html",
+		"/home/rodney/Downloads/temp/arduino_getting_started/remarkdemo.html",
+		"/home/rodney/Downloads/temp/test/style.css",
+		"/home/rodney/Downloads/temp/ReMarkDemo/remarkdemo.html",
+		"/home/rodney/Downloads/temp/local.html",
+		"/home/rodney/Downloads/temp/lecture.html",
+		"/home/rodney/Downloads/temp/RemarkPortable-master/index.html",
+		"/home/rodney/Downloads/temp/Computer_Controlled_Cutting/Computer_Controlled_Cutting.html",
+		"/home/rodney/Documents/github/digfab/practicals/practicals.md",
+		"/home/rodney/Documents/github/digfab/index.md",
+		"/home/rodney/Downloads/temp/RemarkPortable-master/Computer_Controlled_Cutting.md",
+		"/home/rodney/Downloads/temp/RemarkPortable-master/assets/style/style.css",
+		"/home/rodney/Downloads/temp/RemarkPortable-master/present01.md",
+		"/home/rodney/Downloads/temp/test.html",
+		"/home/rodney/.config/joplin-desktop/edit-3dfefe1eed89482988d1961aca099b05.md",
+		"/home/rodney/Documents/series-21-03-16.txt",
+		"/home/rodney/bin/filetest.sh",
+		"/home/rodney/.config/joplin-desktop/edit-51ecf2422f33425a90e18490d0ef2c02.md",
+		"/home/rodney/Downloads/flameshot/README.md",
+		"/home/rodney/Downloads/cmake/cmake-3.20.0-rc3-linux-x86_64.sh",
+		"/media/rodney/SD32/MS9500/MS9500 Project Presentation.txt",
+		"/home/rodney/Downloads/arduino-1.8.13/lib/formatter.conf",
+		"/home/rodney/.arduino15/preferences.txt",
+		"/home/rodney/arduino-1.8.10/lib/formatter.conf",
+		"/home/rodney/bin/thonny",
+		"/home/rodney/.bashrc",
+		"/home/rodney/Downloads/file.ino",
+		"/home/rodney/Documents/github/EP1000/final_project/finalInstructions_2021.md",
+		"/home/rodney/Documents/github/EP1000/arduino/sample_code.md",
+		"/home/rodney/Documents/github/EP1000/index.md",
+		"/home/rodney/Documents/github/EP1000/arduino/iodevices_collection.md",
+		"/home/rodney/Documents/github/EP1000/arduino/code/uno_rotary_encoder_raw.ino",
+		"/home/rodney/Documents/github/EP1000/arduino/code/uno_rotary_encoder_module.ino",
+		"/home/rodney/Documents/github/EP1000/arduino/code/uno_neopixel.ino",
+		"/media/rodney/Seagate/00Series/210202 series.txt",
+		"/home/rodney/Documents/github/EP1000/arduino/libraries.md",
+		"/home/rodney/Arduino/rotary_encoder/rotary_encoder.ino",
+		"/home/rodney/Arduino/uno_rotary_encoder_pot/uno_rotary_encoder_pot.ino",
+		"/home/rodney/Documents/github/EP1000/arduino/code/uno_rotaryencoder_lcd_lib.ino",
+		"/home/rodney/Documents/github/EP1000/arduino/code/uno_rotary_encoder_lcd.ino",
+		"/home/rodney/Arduino/uno_RotaryEncoder_ME/uno_RotaryEncoderLCD_ME.ino",
+		"/home/rodney/Arduino/uno_rotary_library/uno_rotary_library.ino",
+		"/home/rodney/Documents/github/EP1000/arduino/code/uno_rotary_encoder_lcd.ino.ino",
+		"/home/rodney/Arduino/uno_rotary_encoder/uno_rotary_encoder.ino",
+		"/home/rodney/Arduino/uno_RotaryEncoder_ME/uno_RotaryEncoder_ME.ino",
+		"/home/rodney/Arduino/uno_dht11_lcd12c/uno_dht11_lcd12c.ino",
+		"/home/rodney/Downloads/00xfer/Stepper_Knob_ATtiny.ino",
+		"/home/rodney/bin/test.sh",
+		"/home/rodney/Documents/github/EP1000/final_project/final_project.md",
+		"/home/rodney/Documents/github/EP1000/output_devices/output_devices.md",
+		"/home/rodney/Downloads/00xfer/S2021Sem2_01.md",
+		"/home/rodney/Documents/github/EP1000/classes/S2021Sem2_02.md",
+		"/home/rodney/Downloads/FKFQP10IOSPB15B.ino",
+		"/home/rodney/temp/uno.ino",
+		"/home/rodney/bin/jf.sh",
+		"/home/rodney/bin/jf",
+		"/home/rodney/mu_code/servo.py",
+		"/home/rodney/Documents/github/EP1000/arduino/arduinoProgramming.md",
+		"/home/rodney/Documents/github/EP1000/arduino/toggle_sw.md",
+		"/home/rodney/Downloads/complete/Roy Hargrove - Earload/template",
+		"/home/rodney/Downloads/complete/Roy Hargrove - Earload/filelist",
+		"/home/rodney/Downloads/complete/Roy Hargrove - Earload/The Roy Hargrove Quintet - Earfood.cue",
+		"/home/rodney/Downloads/complete/The Abyssinians - Satta Massagana (Dlx Ed)/template",
+		"/home/rodney/Downloads/complete/The Abyssinians - Satta Massagana (Dlx Ed)/filelist",
+		"/home/rodney/Downloads/complete/The Abyssinians - Satta Massagana (Dlx Ed)/The Abyssinians - Satta Massagana.cue",
+		"/home/rodney/Downloads/complete/The Abyssinians - Arise/template",
+		"/home/rodney/Downloads/complete/The Abyssinians - Arise/filelist",
+		"/home/rodney/Downloads/complete/The Abyssinians - Arise/The Abyssinians - Arise.cue",
+		"/home/rodney/Downloads/complete/10cc Greatest Hits 1972-1978/template",
+		"/home/rodney/Downloads/complete/10cc Greatest Hits 1972-1978/1644/template",
+		"/home/rodney/Downloads/complete/10cc Greatest Hits 1972-1978/1644/filelist",
+		"/home/rodney/Downloads/complete/10cc Greatest Hits 1972-1978/1644/10cc - 10cc Greatest Hits 1972-1978.cue",
+		"/home/rodney/Downloads/complete/10cc Greatest Hits 1972-1978/filelist",
+		"/home/rodney/Downloads/BT/Bob Dylan -  50th anniversary collection 1970/d3/template",
+		"/home/rodney/Downloads/BT/Bob Dylan -  50th anniversary collection 1970/d3/filelist",
+		"/home/rodney/Downloads/BT/Bob Dylan -  50th anniversary collection 1970/d3/Bob Dylan - 50th Anniversary Collection 1970 CD03.cue",
+		"/home/rodney/Downloads/BT/Bob Dylan -  50th anniversary collection 1970/d2/template",
+		"/home/rodney/Downloads/BT/Bob Dylan -  50th anniversary collection 1970/d2/filelist",
+		"/home/rodney/Downloads/BT/Bob Dylan -  50th anniversary collection 1970/d2/Bob Dylan - 50th Anniversary Collection 1970 CD02.cue",
+		"/home/rodney/Downloads/BT/Bob Dylan -  50th anniversary collection 1970/template",
+		"/home/rodney/Downloads/BT/Bob Dylan -  50th anniversary collection 1970/filelist",
+		"/home/rodney/Downloads/BT/Bob Dylan -  50th anniversary collection 1970/Bob Dylan - 50th Anniversary Collection 1970 CD01.cue",
+		"/home/rodney/Downloads/complete/zzhome free flac full of cheer.1/00. Home Free - Full Of (Even More) Cheer.nfo",
+		"/home/rodney/Downloads/complete/zzhome free flac full of cheer.1/template",
+		"/home/rodney/Downloads/complete/zzhome free flac full of cheer.1/filelist",
+		"/home/rodney/Downloads/complete/zzhome free flac full of cheer.1/Home Free - Full Of (Even More) Cheer.cue",
+		"/home/rodney/Downloads/complete/Sing Me Back Home - The Music Of Merle Haggard/template",
+		"/home/rodney/Downloads/complete/Sing Me Back Home - The Music Of Merle Haggard/filelist",
+		"/home/rodney/Downloads/complete/Sing Me Back Home - The Music Of Merle Haggard/Merle Haggard - Sing Me Back Home (The Music Of Merle Haggard) CD01.cue",
+		"/home/rodney/Downloads/complete/Sing Me Back Home - The Music Of Merle Haggard/d2/template",
+		"/home/rodney/Downloads/complete/Sing Me Back Home - The Music Of Merle Haggard/d2/filelist",
+		"/home/rodney/Downloads/complete/Sing Me Back Home - The Music Of Merle Haggard/d2/Merle Haggard - Sing Me Back Home (The Music Of Merle Haggard) CD02.cue",
+		"/home/rodney/Downloads/complete/Willie Nelson American Outlaw - All Star Concert 2020/d2/template",
+		"/home/rodney/Downloads/complete/Willie Nelson American Outlaw - All Star Concert 2020/d2/filelist",
+		"/home/rodney/Downloads/complete/Willie Nelson American Outlaw - All Star Concert 2020/d2/Willie Nelson - American Outlaw All Star Concert CD02.cue",
+		"/home/rodney/Downloads/complete/Willie Nelson American Outlaw - All Star Concert 2020/template",
+		"/home/rodney/Downloads/complete/Willie Nelson American Outlaw - All Star Concert 2020/filelist",
+		"/home/rodney/Downloads/complete/Willie Nelson American Outlaw - All Star Concert 2020/Willie Nelson - American Outlaw All Star Concert CD01.cue",
+		"/home/rodney/Downloads/complete/flac windham hill night before christmas/template",
+		"/home/rodney/Downloads/complete/flac windham hill night before christmas/filelist",
+		"/home/rodney/Downloads/complete/flac windham hill night before christmas/Various - Windham Hill The Night Before Christmas.cue",
+		"/home/rodney/Downloads/complete/flac windham hill night before christmas/00. A Windham Hill Christmas - The Night Before Christmas.nfo"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 120.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "digfab.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
