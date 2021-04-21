@@ -82,8 +82,11 @@ layout: false
 
 # Commercial Break
 
-[![Impact of Digital Fabrication](fabfoundation_wondros.png)](http://ng.cba.mit.edu/show/slide/16.08.fablabs.html)
-
+| &nbsp; | &nbsp; |
+|-------|-------------|
+| <a href="http://ng.cba.mit.edu/show/slide/16.08.fablabs.html" target=_blank><img src="fabfoundation_wondros.png" alt="Imapact of Digital Fabrication" style="width:240px" /></a> | [Impact of Digital Fabrication](http://ng.cba.mit.edu/show/slide/16.08.fablabs.html) |
+| <a href="https://youtu.be/RoUjYUkv7RY" target=_blank><img src="plant_fountain.jpg" alt="Plant fountain" style="width:240px" /></a> | Project: [Plant Fountain](https://plsspeccify.github.io/EP1000/prj/watersystem.html) |
+| <a href="https://youtu.be/QKJ9xVG0DyM" target=_blank><img src="trash_bin.jpg" alt="Automatic Trash Bin" style="width:240px" /></a> | Project: [Automated Trash Bin](https://daniellesoh.github.io/ep1000/prj/projects.html) |
 
 
 ---
@@ -141,7 +144,7 @@ layout: false
 template: default-page
 layout: false
 
-# Extra Credits:
+# Extra Benefits:
 
 ## Besides the grades...
 
