@@ -1,10 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
-@import url(https://fonts.googleapis.com/css?family=Trebuchet+MS);
+/*
+  @import url(https://fonts.googleapis.com/css?family=Trebuchet+MS);
+*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
 body {
-  font-family: 'Trebuchet MS';
+  /* font-family: 'Trebuchet MS'; */
+  font-family: 'Source Sans Pro';
 }
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
