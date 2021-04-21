@@ -21,7 +21,7 @@ layout: false
 
 &nbsp;
 
-[![Using FabLab During COVID](images/fablab_covid_use.png "Using FabLab During COVID")](https://youtu.be/fD2nO_e3zO0) 
+[![Using FabLab During COVID](fablab_covid_use.png "Using FabLab During COVID")](https://youtu.be/fD2nO_e3zO0) 
 
 &nbsp;
 ## Safety Issues to be observed during this period.
@@ -34,11 +34,13 @@ layout: false
 
 # Fab Lab Safety
 
-## Your well-being is the **MOST** important issue in the lab.
+## Your well-being is the .blue[MOST] important issue in the lab.
 
 ## We want to create an efficient, productive and safe environment for you to work in.
 
-## Before you **DO** always **THINK**.
+## Look - Think - Do !
+
+![Look Think Do](look_think_do.png)
 
 ---
 template: default-page
@@ -46,17 +48,31 @@ layout: false
 
 # Safety Assessment
 
-## Before you can use the Fab Lab you need to complete and pass the Safety Assessment
+### You need to complete .blue[ALL] components
 
-## The Safety Assessment comprises of
+![Fablab Safety Assessment](fablab_safety_assessment.png)
 
-- Polytechnic Work, Safety & Health (WSH) Assessment
+SP ESP > My Community > Fablab@SP > Fab Lab Safety 2021
 
-- Fablab Singapore Polytechnic's Safety Assessment
-    - Open your browser to E-learning Site at SP 
-    - Select My Community from the top Ribbon bar 
-    - Click on FABLAB@SP 
-    - Select **Fab Lab Safety Program** on the left hand menu
+---
+template: default-page
+layout: false
+
+# Campus Safety and Health: Our Responsibility
+
+![Campus Safety and Health](campus_safety_health.png)
+
+### Good to review at least .blue[ONCE] a semster.
+
+---
+template: default-page
+layout: false
+
+# Fab Lab Safety
+
+## Looks specifically at safety in SP's Fab Labs
+
+![Fab Lab Safety](fablab_safety.png)
 
 ---
 template: default-page
@@ -68,79 +84,16 @@ layout: false
 
 - Completing the Polytechnic Workplace Safety & Health assessment
 
-- Read and understand Fab Lab Singapore Polytechnic **Safety Notes**
+- Read and understand Fab Lab Singapore Polytechnic .blue[**Safety Notes**]
 
-- Complete the Fab lab Singapore Polytechnic **Safety Assessment** under supervision.
-
-## This assessment will contribute 5% to your overall score for this module.
-
-
----
-template: default-page
-layout: false
-
-# Method of Assessment
+- Complete the .blue[**Safety Assessment**] under supervision.
 
 &nbsp;
 
-| Item  | Code | Description       | Weightage |
-|:-----:|:----:|:------------------|:-----:|
-| 1     | CA1  | Safety, Documentation, Website  | 20% |
-| 2     | CA2  | Digital Fabrication Skills  | 40%|
-| 3     | CA3  | Summative Project   | 40% |
+### Inform your supervisor once you have successfully completed the assessment.
 
-&nbsp;
+### This assessment will contribute 5% to your overall score for this module.
 
-### Assessment methods
-
-- Worked weekly assignments
-
-- Documentation
-
-- Prototyped Project
-
----
-template: default-page
-layout: false
-
-# Course Schedule Sess 21/22 Sem 1
-
-|Week  | Date      | Topic                     | Assessments |
-|:----:|:------ ---|:--------------------------|:----------  |
-|1     | 19-Apr  | Introduction, Fablab Safety, Tools  | Safety Quiz |
-|2     | 26-Apr  | Documentation, HTML & CSS, Website dev | |
-|3     | 3-May   | Markdown, Version Control      | WebSite |
-|4     | 10-May  | Computer Graphics, CAD 2D Drawing | Basic Drawing |
-|5     | 17-May  | 3D Modelling - Extrusion, Revolution | |
-|6     | 24-May  | 3D Printing Processes |  Chess Piece |
-|7     | 31-May  | .blue[(MST)] Computer Controlled Cutting |
-|8     | 7-Jun   | Vacation  | 3D Printing - Basic | |
-|9     | 14-Jun  | Vacation | |
-|10    | 21-Jun  | Vacation | Laser Cutting - Basic |
-|11    | 28-Jun  |  Laser cutting | |
-|12    | 5-Jul   | Basic Electronics, Soldering | |
-|13    | 12-Jul  | Introduction to embedded controllers | Simple I/O |
-|14    | 19-Jul  | Input devices - Switches, Sensors | |
-|15    | 26-Jul  | Output devices - Displays, Motors | |
-|16    | 2-Aug   | Module Project 1 | |
-|17    | 9-Aug   | Module Project 2 | |
-|18    | 16-Aug  | Final Presentations | Module Project |
-
----
-template: default-page
-layout: false
-
-# Extra Benefits:
-
-## Besides the grades...
-
-- Fablab Safety Quiz
-
-- 3D Printing Skill Certification
-
-- Laser Cutting Skill Certification
-
-## Allows usage of lab, equipment and materials outside of class hours.
 
 
 ---

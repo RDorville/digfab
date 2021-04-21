@@ -8,9 +8,11 @@ background-position: 98% 2%
 
 class: center, middle
 
-# EP1000<br>Digital Fabrication Prototyping Fundamentals
+# EP1000
 
-### Introduction
+##Digital Fabrication Prototyping Fundamentals
+
+## Introduction
 
 
 ---
@@ -160,7 +162,11 @@ layout: false
 ---
 class: center, middle
 
-# Digital Fabrication: Introduction
+# EP1000
+
+## Digital Fabrication Fundamentals
+
+## Introduction
 
 ### .red[End]
 

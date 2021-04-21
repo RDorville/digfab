@@ -5,8 +5,9 @@ Most of the presentations here are created using [ReMarkJS](https://remarkjs.com
 Here is the list
 
 - EP1000 Digital Fabrication
-    + [Introduction](ep1000_introduction/ep1000_introduction.html)
+    + [Introduction](ep1000_introduction/index.html)
     + [Safety](ep1000_safety/index.html)
+    + [Tools](ep1000_tools/index.html)
 - [Project Documentation](project_documentation/project_documentation.html)
 - [Computer Controlled Cutting](computer_controlled_cutting/computer_controlled_cutting.html)
 - Embedded Programming
