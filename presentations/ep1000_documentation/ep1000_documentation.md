@@ -48,9 +48,7 @@ layout: false
 
 ### Requirements:
 - Fieldwork
-
 - Training in transcribing experiences
-
 - Recording of experiences
 ]
 
@@ -61,17 +59,20 @@ layout: false
 # Documentation Techniques
 
 ### What to collect?
+
 - Written text
 - Images (Photos, Videos, Drawings)
 - Sound (Recordings)
 
 ### Purpose
+
 - aim to .highlight[collect] information
 - create high quality materials
 - enable recovery of knowledge
 - generate resources on the information 
 
 ### Dependent on what you want to record
+
 - convenience
 - portability
 - relevance
@@ -139,7 +140,7 @@ layout: false
 
 - Use [HTML](https://www.w3schools.com/html/) - defines .highlight[content]
 - Use [CSS](https://www.w3schools.com/css/default.asp) - defines .highlight[layout]
-- Use [Markdown](https://www.markdownguide.org/)
+- Use [Markdown](https://www.markdownguide.org/) - so simple!
 
 --
 
