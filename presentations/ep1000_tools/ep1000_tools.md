@@ -29,7 +29,7 @@ layout: false
 
 ## Each FabLab has equipment/tools unique to its function
 
-## All FabLabs are open to .blue[ALL] students of Singapore Polytechnic
+## All FabLabs are open to .highlight[ALL] students of Singapore Polytechnic
 
 
 ---
@@ -65,26 +65,21 @@ layout: false
 
 # Software Tools
 
-## Very essential tools for the digital fabricator
+## Very .highlight[essential] tools for the digital fabricator
 
 ## Use Open Source Tools (Cross-platform)
 
 - Pure Text Editor - [Atom](https://atom.io/), [SublimeText3](https://www.sublimetext.com/3), [Visual Studio Code(W)](https://code.visualstudio.com/), [Notepad++(W)](https://notepad-plus-plus.org/)
-
 - Raster Graphics - [GIMP](https://www.gimp.org/)
     - Image Resizers - [FastOne Photo Resizer(W)](https://www.faststone.org/FSResizerDownload.htm)
     - Image Capture - [PicPick(W)](https://picpick.app/en/), [Shutter(L)](https://www.cyberciti.biz/open-source/linux-screenshot-program-tool/), [SnagIt(M)](https://www.techsmith.com/screen-capture.html)
-
 - Vector Graphics - [InkScape](https://inkscape.org/), [LibreCAD](https://librecad.org/)
-
 - Full CAD System - [Fusion 360](https://www.autodesk.com/campaigns/education/fusion-360)
-
 - Embedded Controller IDE - [Arduino](https://www.arduino.cc/)
-
 - Browsers [Firefox](https://www.mozilla.org/en-US/), [Chrome](https://www.google.com/intl/en/chrome/), [Chromium](https://www.chromium.org/)
-
 - [PortableApps](https://portableapps.com/)
 
+## YouTube has lots of great tutorials on each of the tools.
 
 ---
 template: default-page
@@ -155,14 +150,12 @@ layout: false
 
 ## Allows you to express your thoughts
 
-- Need not be .blue[pretty]
-
+- Need not be .highlight[pretty]
 - Refine your sketches as you formalise your design
-
-- Add dimenstions to the sketches
+- Add .highlight[dimensions] to the sketches
+- Ink your final designs to make them stand-out.
 
 ## Sketches help in refining your digital designs
-
 
 <table>
   <tr>
@@ -181,14 +174,13 @@ layout: false
 ## What will you do for your module project?
 
 - Sketch the idea on a piece of paper
-
 - Refine your sketches, add comments, dimensions
-
 - Take photos of the sketches for inclusion in your reports
 
-## Please complete before next lesson
+### Please .highlight[complete] before next lesson
 
 &nbsp;
+## Questions
 
 ### Will you be able to build a model of the project?
 
