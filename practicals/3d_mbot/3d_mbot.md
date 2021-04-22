@@ -110,19 +110,24 @@ layout: false
 &nbsp;
 
 .left-column-50[
-<a href="top_menu.png" target="_blank"><img src="top_menu.png" alt="Select HOME" width="350px"></a><br>
-<a href="home_printer.png" target="_blank"><img src="home_printer.png" alt="Home the Printer" width="350px"></a><br>
-<a href="home_all.png" target="_blank"><img src="home_printer.png" alt="Home ALL axes" width="350px"></a>
+<a href="top_menu.png" target="_blank"><img src="top_menu.png" alt="Select Tool" width="300px" /></a><br>
+Boot Menu<br>
+<a href="home_printer.png" target="_blank"><img src="home_printer.png" alt="Home the Printer" width="300px" /></a><br>
+Tool Menu
 ]
 
 .right-column-50[
 
 Steps to print
 
-1. Load the thumbdrive
-2. On the MBot, select Tools > .highlight[HOME]<br>Home .highlight[ALL] the axes.<br>You need to home the printer before any printing can be started!
-2. Select Printing, locate file
-3. Print.
+- Load the thumbdrive
+- On the MBot Boot Menu
+    - select <span style="color:#ff0000">HOME</span>
+    - Home <span style="color:#ff0000">ALL</span> the axes.
+    - You need to home the printer before any printing can be started!
+- Select <span style="color:#ff0000">PRINTING</span>, locate file to print
+-  Print.
+
 ]
 
 
