@@ -125,23 +125,319 @@ layout: false
 template: default-page
 layout: false
 
-# Assignment
+# Learning HTML
 
-## What will you do for your module project?
+- You will need to understand and know how to use .highlight[BASIC] HTML.
+- We .highlight[don't expect] you to be experts.
 
-- Sketch the idea on a piece of paper
-- Refine your sketches, add comments, dimensions
-- Take photos of the sketches for inclusion in your reports
+## A list of what you need to learn
 
-### Please .highlight[complete] before next lesson
+- [Elements](https://www.w3schools.com/html/html_elements.asp)
+- [Attributes](https://www.w3schools.com/html/html_attributes.asp)
+- [Headings](https://www.w3schools.com/html/html_headings.asp)
+- [Paragraphs](https://www.w3schools.com/html/html_paragraphs.asp)
+- [Style](https://www.w3schools.com/html/html_styles.asp)
+- [Formatting](https://www.w3schools.com/html/html_formatting.asp)
+- [Colors](https://www.w3schools.com/html/html_colors.asp)
+- [Comments](https://www.w3schools.com/html/html_comments.asp)
+- [Images](https://www.w3schools.com/html/html_images.asp)
+- [Lists](https://www.w3schools.com/html/html_lists.asp)
+- [Bookmarks](https://www.w3schools.com/html/html_links_bookmarks.asp)
+- [Links](https://www.w3schools.com/html/html_links.asp)
+- [Tables](https://www.w3schools.com/html/html_tables.asp)
+- [Layouts](https://www.w3schools.com/html/html_layout.asp)
 
-&nbsp;
-## Questions
+---
+template: default-page
+layout: false
 
-### Will you be able to build a model of the project?
+# Headings and Paragraphs
 
-### Why is building a model so early, important?
+## Headings
 
+- Headings are used as titles or sub-titles on the webpage
+- Keep .highlight[H1] as the title of the page.
+- Use .highligh[H2] and .highligh[H3] for your sub-headings/titles
+- Limit your headings up to 3-levels.
+
+## Paragraphs
+
+- Paragraphs are used to define text.
+- Paragraphs makes text appear on a new line.
+- White space is ignored in paragraphs.
+- .highlight[Remember] to start and end your paragraphs with the .bold[&lt;p&gt;] tags.
+- special tags/[characters](https://www.html.am/reference/html-special-characters.cfm):
+  - &amp;nbsp; non-breaking white space
+  - &lt;br&gt;  line-break
+  - special characters: &amp;amp; (&amp;), &amp;lt; (&amp;), gt; (&gt;), &amp;copy; (&copy;)
+  - &lt;pre&gt; pre-formatted text
+
+---
+template: default-page
+layout: false
+
+# Styles
+
+- the &lt;style&gt; attribute is used to add styles your elements.
+- you can change color, font, size, and more.
+- we will use .highlight[CSS] to apply styles 
+
+## Inline Styles
+
+- styles can also be applied inline (for a particular element)
+- however,
+  - leads to confusing web-sites
+  - only used as a quick-patch solution
+
+```html
+  <h1 style="color:blue;">This is a heading</h1>
+
+  <p style="color:red;">This is a red paragraph.</p>
+  <p style="text-align: center">This is a center-aligned paragraph</p>
+```
+
+- more on styles, when we work on CSS.
+
+---
+template: default-page
+layout: false
+
+# Formatting
+
+- You can format your text to emphasize what your intentions.
+- Here is a short list of formatting elements
+  - &lt;b&gt; - Bold text
+  - &lt;i&gt; - Italic text
+  - &lt;em&gt; - Emphasized text
+  - &lt;strong&gt; - Important text
+  - &lt;small&gt; - Smaller text
+  - &lt;del&gt; - Deleted text
+  - &lt;ins&gt; - Inserted text
+  - &lt;mark&gt; - Marked text
+  - &lt;sub&gt; - Subscript text
+  - &lt;sup&gt; - Superscript text
+
+
+  ## Colors
+
+  - You can also manipulate the colors of your elements
+  - More elaborate explanation can be found [here](https://www.w3schools.com/html/html_colors.asp)
+
+---
+template: default-page
+layout: false
+
+# Comments
+
+- Comments help in putting messages in your code to help you document your work.
+- Comments are also used to block out code for experimentation/debugging.
+- Comments are not displayed/rendered by the browser.
+- You can read more [here](https://www.w3schools.com/html/html_comments.asp).
+
+
+  ```html
+  <!-- You can have a comment on a single line -->
+
+  <p>Or have it on a block as in the next section.</p>
+
+  <!--
+      This is a comment
+      All text is ignored between the starting and ending
+      elements.
+  -->
+  ```
+
+---
+template: default-page
+layout: false
+
+# Images
+
+- You can display images on a web page using the &lt;img&gt; tag.
+- Images are .highlight[linked] to the web page using the &lt;img&gt; tag.
+- The &lt;img&gt; tag has the end-tag as /&gt;
+- The &lt;img&gt; has two required attributes
+  - the .highlight[src] which references the image
+  - the .highlight[alt] which provides a text explanation
+
+```html
+  <img src="myselfie.jpg" alt="My Selfie"  />
+  <p>How I look</p>
+
+  <img src="http://www.sp.edu.sg/fablab.jpg" alt="SP Fab Lab" />
+  <p>SP Lab Fab image on the SP website</p>
+```
+
+- If your images are too large (or small), you can format them
+- I suggest you use the inline-style attribute
+- You can specify both width and height.
+- However, if you only specify one, then the aspect ratio is kept
+
+```html
+  <img src ="landscape_3840_2048px.jpg" alt="Landscape view" 
+       style="width:1024 />
+  <p>Resized landscape view</p>
+```
+
+- The following images are accepted: .jpg, .png, .gif, .ico, .jpeg, .svg
+
+
+
+---
+template: default-page
+layout: false
+
+# Hyperlinks
+
+- The true power of the WWW is hyperlinks.
+- Links allow pages to be connected together.
+- When you click on a link, you can "jump" to another document.
+- A link .highlight[DOES NOT] need to be text!
+
+<img src="ahref.png" style="width:500"/>
+
+```html
+  <p>Here is a link to  <a href="https://www.w3schools.com">W3Schools</a></p>
+
+  <p>A good option is to open the link on a new page, for example</p>
+  <p>Search in a new window:<a href="https://www.google.com">Google</a></p>
+```
+
+---
+template: default-page
+layout: false
+
+# Absolute and Relative URLs
+
+- Absolute URLs have the full (absolute) URL address in the link
+- Usually link to documents outside of the site
+
+```html
+  <p>You can get more information at 
+  <a href="https://www.w3schools.com/html/html_links.asp">W3Schools HTML Links</a> 
+  tutorial page.
+```
+
+- Relative URLs are used for documents within the site
+- For example, if images are kept within a sub-folder 
+
+```html
+  <p>You can see an 
+     <a href="images/picture.jpg">IMAGE</a> of the object.</p>
+```
+
+- Links are not limited to text, but to other objects as well!
+
+```html
+    <a href="images/portrait.jpg">
+      <img src="images/portrait.jpg" style="width:400px" alt="Portrait"/>
+    </a><br>
+    <p>You can click on the image to enlarge.</p>
+```
+
+---
+template: default-page
+layout: false
+
+# Lists
+
+- Lists are used to organise information in groups.
+- There are two types of lists:
+
+<img src=lists.png style="width:500px" alt="Lists compared" />
+
+---
+template: default-page
+layout: false
+
+# Lists
+
+- Lists can be nested
+- Unordered lists use the .highlight[&lt;ul&gt;] tag.
+
+```html
+  <ul>
+      <li>Item #1</li>
+      <li>Item #2</li>
+      <li>Item #3</li>
+  </ul>
+```
+
+- Ordered lists use the .highlight[&lt;ol&gt;] tag
+
+```html
+  <ol>
+      <li>Item #1</li>
+      <li>Item #2</li>
+      <li>Item #3</li>
+  </ol>
+```
+
+- In both cases, list items are tagged using .highlight[&lt;li&gt;]
+
+---
+template: default-page
+layout: false
+
+# Tables
+
+- Tables allow you to organise your information in rows and columns.
+- Limit the sizes of your tables, as the browser needs to load the .highlight[table] before it can be rendered.
+
+<table id="mytable">
+    <tr>
+        <th>Tag</th>
+        <th>Purpose</th>
+    </tr>
+    <tr>
+        <td>&lt;table&gt;</td>
+        <td>Defines a table</td>
+    </tr>
+    <tr>
+        <td>&lt;tr&gt;</td>
+        <td>Defines a row in the table<br>
+          You can have one or many rows
+        </td>
+    </tr>
+    <tr>
+        <td>&lt;th&gt;</td>
+        <td>Defines a header column<br>
+          There is only 1 header row, but can have many columns
+        </td>
+    </tr>
+    <tr>
+        <td>&lt;td&gt;</td>
+        <td>Defines a column in a row<br>
+          You can have many columns in a row
+        </td>
+    </tr>
+</table>
+
+- More on tables at [W3Schools](https://www.w3schools.com/html/html_tables.asp)
+- Alternatively, you can use a [table generator](https://www.tablesgenerator.com/)
+
+---
+template: default-page
+layout: false
+
+# About Page
+
+- Every site has an .highlight[About] page
+- The about page informs the reader about the author/purpose of the site.
+
+## Task
+
+1. Create an About page, which is linked from the main page (index.html)
+2. Write one or two paragraphs informing the reader about the purpose of this site.
+3. Use a table with two columns, to show
+  - A selfie of the author (on the left)
+  - Some information about the author (on the right)
+4. Provides some means of contacting the author
+5. Have links that can return to the main page
+
+**Extra Credit**
+- Store your images in a folder named "images"
+- Images is located as a sub-folder to the root of the site.
 
 
 ---
