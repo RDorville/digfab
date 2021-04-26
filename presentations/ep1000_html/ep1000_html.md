@@ -102,8 +102,8 @@ layout: false
 
 # Build your first Website
 
-1. Create a folder .highlight(mywebsite)''
-2. Create a file .highlight(index.html) within the folder.
+1. Create a folder .highlight[mywebsite]
+2. Create a file .highlight[index.html] within the folder.
 3. Edit and enter the contents of a basic web-page.
 4. Save your file and display it on the browser.
 
