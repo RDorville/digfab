@@ -339,6 +339,45 @@ layout: false
 template: default-page
 layout: false
 
+# HTML File Paths
+
+- Examples
+
+<table id="mytable">
+    <tr>
+        <th>Path</th>
+        <th>Description</th>
+        <tr>
+            <td>&lt;a href="example.html" &gt;</td>
+            <td>'example.html' is located in the same folder</td>
+        </tr>
+        <tr>
+            <td>&lt;a href="files/example.html" &gt;</td>
+            <td>'example.html' is located in the sub-folder 'files'</td>
+        </tr>
+        <tr>
+            <td>&lt;a href="/example.html" &gt;</td>
+            <td>'example.html' is located in  the root folder of current web</td>
+        </tr>
+        <tr>
+            <td>&lt;a href="../example.html" &gt;</td>
+            <td>'example.html' is in the folder one level up from the current folder</td>
+        </tr>
+        <tr>
+            <td>&lt;a href="https:/tinyurl.com/example.html" &gt;</td>
+            <td>absolute path<br>'example.html' is in the website https://tinyurl.com/</td>
+        </tr>
+    </tr>
+</table>
+
+- applies to &lt;img&gt; as well
+
+
+
+---
+template: default-page
+layout: false
+
 # Lists
 
 - Lists are used to organise information in groups.
@@ -438,6 +477,66 @@ layout: false
 **Extra Credit**
 - Store your images in a folder named "images"
 - Images is located as a sub-folder to the root of the site.
+
+---
+template: default-page
+layout: false
+
+# The Head Element
+
+- the HTML &lt;head&gt; element is a container for 
+  - &lt;title&gt;
+  - &lt;link&gt;
+  - &lt;style&gt;
+  - &lt;script&gt;
+  - &lt;meta&gt;
+- contains .highlight[metadata] (data about the HTML document)
+- Metadata is not displayed.
+
+---
+template: default-page
+layout: false
+
+## &lt;title&gt;
+
+- text which is displayed on the browser's bar or page's tab
+- .highlight[required] in HTML documents
+- purpose
+  - defines a title in the browser's toolbar
+  - provides a title for the page when added to favorites
+  - displays a title for page in search engine results.
+
+
+### &lt;link&gt;
+
+- defines the relationship between current document and an external resource.
+- most often used to link external style sheets
+
+```html
+<link rel="stylesheet" href="mystyles.css"
+```
+
+---
+template: default-page
+layout: false
+
+## &lt;style&gt;
+
+- used to define style information for a .highlight[SINGLE] HTML page.
+
+
+## &lt;script&gt;
+
+- used to define client-side Javascripts
+
+
+## &lt;meta&gt;
+
+- used to provide information about the page.
+- used by browser to decide how to reload/render the page
+- used by search engines to define keywords and content
+
+
 
 
 ---
