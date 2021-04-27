@@ -536,7 +536,82 @@ layout: false
 - used by browser to decide how to reload/render the page
 - used by search engines to define keywords and content
 
+---
+template: default-page
+layout: false
 
+# iframe Element
+
+.left-column-50[
+- Used to display a webpage within a web page.
+- You will use it to display your Fusion 360 drawings
+
+```html
+   <iframe 
+       src="http://fabacademy.org/" 
+       frameborder="2" 
+       width="600px" height="400px" 
+       title="Fabacademy.org" >
+    </iframe>
+```
+]
+
+.right-column-50[
+<img src="iframe.png" style="width:350px" />
+]
+
+---
+template: default-page
+layout: false
+
+# Block and Inline
+
+## Block-level Elements
+
+- Starts on a new line
+- Takes up full width available
+- Has top and bottom margin
+- [Example](https://www.w3schools.com/html/html_blocks.asp)
+  - &lt;div&gt; used as a container
+
+## Inline Elements
+
+- Does not start on a new line
+- Takes up as much space as necessary
+- cannot contain a block-level element
+- [Example](https://www.w3schools.com/html/html_blocks.asp):
+  - &lt;span&gt; used to mark up a block of text
+
+---
+template: default-page
+layout: false
+
+# Layout Elements and Techniques
+
+.left-column-50[
+- uses a kind-of &lt;div&gt;
+- [Semantic elements]((https://www.w3schools.com/html/html5_semantic_elements.asp)) that define the different parts of a web page
+  - header
+  - nav
+  - section
+  - article
+  - aside
+  - footer
+- Clearly describes its meaning to both the browser and developer
+- Layout techniques:
+  - CSS framework
+  - [CSS float](https://www.w3schools.com/css/css_float.asp) property
+  - CSS flexbox
+  - CSS grid
+]
+
+.right-column-50[
+![iframe](layout.png)
+]
+
+<div style="clear:both">
+For simplicity we will only use the .highlight[float] property.
+</div>
 
 
 ---
