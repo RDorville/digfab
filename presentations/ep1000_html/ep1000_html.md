@@ -453,7 +453,33 @@ layout: false
 </table>
 
 - More on tables at [W3Schools](https://www.w3schools.com/html/html_tables.asp)
-- Alternatively, you can use a [table generator](https://www.tablesgenerator.com/)
+- Alternatively, you can use a [table generator](https://duckduckgo.com/?q=html+table+generator)
+
+---
+template: default-page
+layout: false
+
+# iframe Element
+
+.left-column-50[
+- Used to display a webpage within a web page.
+- You will use it to display your Fusion 360 drawings
+
+```html
+   <iframe 
+       src="http://fabacademy.org/" 
+       frameborder="2" 
+       width="600px" height="400px" 
+       title="Fabacademy.org" >
+    </iframe>
+```
+]
+
+.right-column-50[
+<img src="iframe.png" style="width:350px" />
+]
+
+
 
 ---
 template: default-page
@@ -482,137 +508,11 @@ layout: false
 template: default-page
 layout: false
 
-# The Head Element
+# About ([Sample](about.html))
 
-- the HTML &lt;head&gt; element is a container for 
-  - &lt;title&gt;
-  - &lt;link&gt;
-  - &lt;style&gt;
-  - &lt;script&gt;
-  - &lt;meta&gt;
-- contains .highlight[metadata] (data about the HTML document)
-- Metadata is not displayed.
-
----
-template: default-page
-layout: false
-
-## &lt;title&gt;
-
-- text which is displayed on the browser's bar or page's tab
-- .highlight[required] in HTML documents
-- purpose
-  - defines a title in the browser's toolbar
-  - provides a title for the page when added to favorites
-  - displays a title for page in search engine results.
-
-
-### &lt;link&gt;
-
-- defines the relationship between current document and an external resource.
-- most often used to link external style sheets
-
-```html
-<link rel="stylesheet" href="mystyles.css"
-```
-
----
-template: default-page
-layout: false
-
-## &lt;style&gt;
-
-- used to define style information for a .highlight[SINGLE] HTML page.
-
-
-## &lt;script&gt;
-
-- used to define client-side Javascripts
-
-
-## &lt;meta&gt;
-
-- used to provide information about the page.
-- used by browser to decide how to reload/render the page
-- used by search engines to define keywords and content
-
----
-template: default-page
-layout: false
-
-# iframe Element
-
-.left-column-50[
-- Used to display a webpage within a web page.
-- You will use it to display your Fusion 360 drawings
-
-```html
-   <iframe 
-       src="http://fabacademy.org/" 
-       frameborder="2" 
-       width="600px" height="400px" 
-       title="Fabacademy.org" >
-    </iframe>
-```
-]
-
-.right-column-50[
-<img src="iframe.png" style="width:350px" />
-]
-
----
-template: default-page
-layout: false
-
-# Block and Inline
-
-## Block-level Elements
-
-- Starts on a new line
-- Takes up full width available
-- Has top and bottom margin
-- [Example](https://www.w3schools.com/html/html_blocks.asp)
-  - &lt;div&gt; used as a container
-
-## Inline Elements
-
-- Does not start on a new line
-- Takes up as much space as necessary
-- cannot contain a block-level element
-- [Example](https://www.w3schools.com/html/html_blocks.asp):
-  - &lt;span&gt; used to mark up a block of text
-
----
-template: default-page
-layout: false
-
-# Layout Elements and Techniques
-
-.left-column-50[
-- uses a kind-of &lt;div&gt;
-- [Semantic elements]((https://www.w3schools.com/html/html5_semantic_elements.asp)) that define the different parts of a web page
-  - header
-  - nav
-  - section
-  - article
-  - aside
-  - footer
-- Clearly describes its meaning to both the browser and developer
-- Layout techniques:
-  - CSS framework
-  - [CSS float](https://www.w3schools.com/css/css_float.asp) property
-  - CSS flexbox
-  - CSS grid
-]
-
-.right-column-50[
-![iframe](layout.png)
-]
-
-<div style="clear:both">
-For simplicity we will only use the .highlight[float] property.
-</div>
-
+<a href="about_page.png" target="_blank">
+  <img src="about_page.png" alt="About Me"  width="400px" />
+</a> 
 
 ---
 class: center, middle
