@@ -1,4 +1,5 @@
 /*
+  v1.006 added clearboth
   v1.005  left-colun-20, right-column-70
   v1.004  Uses Fira Sans as a better alternative. A 500 is darker
           Paragraph sizes 1.5em
@@ -153,6 +154,11 @@ code {
 .right-column-50 {
   width: 48%;
   float: right;
+}
+
+.clearboth {
+  clear: both;
+  display: table;
 }
 
 

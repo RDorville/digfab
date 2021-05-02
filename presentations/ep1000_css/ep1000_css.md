@@ -401,14 +401,14 @@ layout: false
   - center the contents
   - change all fonts to Arial
   - change the background [color](https://www.w3schools.com/colors/colors_picker.asp)
+  - xxx
 ]
 
-.right-column-50[<img src="css_body.png">]
+.right-column-50[<img src="css_body.png" />]
 
-<div style="clear:both">
-</div>
+--
 
-```css
+.clearboth[```css
 body{
     width:80%;
     margin-left:auto;
@@ -417,6 +417,8 @@ body{
     background-color: #ffffee;  /* change background color */
 }
 ```
+]
+
 <!-- /Centering the page -->
 
 
@@ -430,12 +432,7 @@ layout: false
   - inverse the colors
   - center the heading tex
   - add some spacing
-]
 
-.right-column-50[<img src="css_heading.png">]
-
-<div style="clear:both">
-</div>
 
 ```css
 header {
@@ -445,6 +442,10 @@ header {
     padding:5px;
 }
 ```
+]
+
+.right-column-50[<img src="css_heading.png" />]
+
 
 <!-- /Changing the header -->
 
@@ -455,12 +456,170 @@ template: default-page
 layout: false
 # Navigation Bar
 
-- good ideas from [W3 Schools](https://www.w3schools.com/css/css_navbar.asp)
-  - [horizontal nav bar](https://www.w3schools.com/css/css_navbar_horizontal.asp)
-  
+<img src="hornavbar.gif" alt="Horizontal Navigation bar" />
 
+.left-column-50[```css
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    line-height:40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+  /* float: left; */
+  display: inline;
+}
+
+```
+- Examples from [W3 Schools](https://www.w3schools.com/css/css_navbar.asp),  [horizontal nav bar](https://www.w3schools.com/css/css_navbar_horizontal.asp)
+]
+
+.right-column-50[```css
+nav li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ /* Change the link color if on the same page */
+nav .active {
+  background-color: green;
+  color: white;
+}
+
+/* Change the link color to black on hover */
+nav li a:hover {
+    background-color: #e7e7e7;
+    color:black;
+}
+
+```
+]
 
 <!-- /Navigation Bar -->
+
+---
+name: &lt;div&gt; sections
+template: default-page
+layout: false
+# &lt;div&gt; sections
+
+- use "id" or class" to designate them
+- create css rules for each id, class
+
+```html
+<div id="main">
+  <h2>Information</h2>
+  <p>This section is for ...</p>
+</dv>
+```
+
+CSS Rules
+
+```css
+.main {
+  background-colour: lightgrey;
+  color: black;
+}
+```
+
+<!-- /&lt;div&gt; sections -->
+
+---
+name: Tip
+template: default-page
+layout: false
+# Tip
+
+- It's easier to work with blocks, work on each block at atime.
+- Use bright colors, borders to designate areas
+- Get/Use ideas from other templates
+- Use Firefox/Chrome Developer Tools to troubleshoot
+  - Firefox F12 key [14 Firefox Developer Tools](https://www.youtube.com/S36N8RGdY2U)
+  - Chrome F12 key [Tutorial for Beginners](https://youtu.be/wcFnnxfA70g)
+
+<img src="test_css_layouts.png" alt="Testing CSS Layouts" />
+
+<!-- /Tip -->
+
+---
+name: Worked Tutorial
+template: default-page
+layout: false
+# Worked Tutorial
+
+- Jake Wright - [Learn CSS in 12 minutes]()
+  - shows the creation of a site content (not much)
+  - shows how an effective layout can be planned
+  - shows creation of a simple Project Site
+- Task:
+  - watch JW's video in it's entirety (just watch)
+  - use paper and pencil, follow development of structure/layout
+  - create the content of the site
+  - create the layout of the site
+  - Think:
+    - how can you add your About page to the site
+    - how can you add project pages to the site
+
+<!-- /Worked Tutorial -->
+
+---
+name: Marked Assignment
+template: default-page
+layout: false
+# Marked Assignment
+
+This assignment will be marked and will contribute to the overall
+score of your module
+
+## Task
+
+1. Create a Project Documentation Site using HTML and CSS
+2. Your site must have
+  - a Main page, explaining what this site a all about
+  - an About page, introducing yourself.  You must include some biodata, a selfie and means of contact.  You should also write one or two paragraphs about yourself.
+  - a project(s) page
+  - navigation to move from one page to the other
+3. Project page(s)
+  - links to projects/assignments that you have created
+  - link to your final project
+  - an initial page listing the tools that you have used/are using to create your website and the reasons to use them.
+  - include the table we discussed in class.
+
+
+---
+name: Marked Assignment 
+template: default-page
+layout: false
+# Marked Assignment (..2)
+
+### Must-haves
+
+- you need to provide HTML and CSS for your pages
+- you can use external templates (e.g. Jake Wright), provided
+  1. you give recognition to the original author(s)
+  2. you can show how to create a new page to be added using the template.
+- you will be marked based on
+  - 80% marks on content
+  - 15% marks on layout/aesthetics
+  - 5% on originality
+
+### Deadline
+
+- Due 2 weeks from this class session
+- More information will come in the next class.
+
+<!-- /Marked Assignment  -->
+
+
+
+<!-- /Assignment -->
+
+
 ---
 class: center, middle
 
