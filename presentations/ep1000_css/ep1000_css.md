@@ -350,6 +350,9 @@ p.warning {
   background-color: red;
 }
 ```
+
+.footnote[[CSS Class vs ID: Which One To Use](https://www.developintelligence.com/blog/2016/04/css-class-vs-id-which-one-to-use/)]
+
 <!-- /CSS Selectors - class -->
 
 ---
@@ -401,14 +404,9 @@ layout: false
   - center the contents
   - change all fonts to Arial
   - change the background [color](https://www.w3schools.com/colors/colors_picker.asp)
-  - xxx
-]
 
-.right-column-50[<img src="css_body.png" />]
 
---
-
-.clearboth[```css
+```css
 body{
     width:80%;
     margin-left:auto;
@@ -418,6 +416,9 @@ body{
 }
 ```
 ]
+
+.right-column-50[<img src="css_body.png" />]
+
 
 <!-- /Centering the page -->
 
@@ -567,6 +568,128 @@ layout: false
 
 <!-- /Worked Tutorial -->
 
+
+---
+name: JW Layout
+template: default-page
+layout: false
+# JW Layout
+
+Jake Wright uses classes to define his rules for his [page](JW/index.html).
+
+<img src="jake_wright_layout.png" alt="Jake wright's Layout" />
+
+
+<!-- /JW Layout -->
+
+---
+name: JW Content
+template: default-page
+layout: false
+# JW Content
+
+```html
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>My Website</h1>
+                <link rel="stylesheet" type="text/css" href="style.css">
+            </div> 
+            <div id="content">
+                <div id="nav">
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a class="selected" href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="main">
+                  ...
+                  ...
+            <div id="footer">
+                Copyright &copy; 2020 
+            </div>
+        </div>
+    </body>
+```
+
+<!-- /JW Content -->
+
+---
+name: JW Layout
+template: default-page
+layout: false
+
+# JW Layout
+
+.left-column-50[```css
+body{
+    background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+#container{
+    background-color: white;
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#header {
+    background-color: #66CCFF;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    padding: 10px;
+}
+```
+]
+
+.right-column-50[
+```css
+#nav{
+    width: 180px;
+    float: left;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav .selected{
+    font-weight: bold;
+}
+
+
+#main{
+    width: 600px;
+    float: right;
+}
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: #ffffff;
+    text-align: right;
+}
+```
+]
+
+<!-- /JW Layout -->
 ---
 name: Marked Assignment
 template: default-page
