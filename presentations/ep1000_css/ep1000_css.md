@@ -67,7 +67,7 @@ layout: false
 - most often used to link external style sheets
 
 ```html
-<link rel="stylesheet" href="mystyles.css"
+<link rel="stylesheet" href="mystyles.css" />
 ```
 
 ---
@@ -182,7 +182,7 @@ layout: false
         <p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Impedit, incidunt.</p>
     </div>
     <div style="float:left; width:49%">
-        <img src="ahref.png" alt="" style="width:98%">
+        <img src="ahref.png" alt="" style="width:98%" />
     </div>
     <div style="float:right; width:49%">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing necessitatibus. Nam eaque officia, distinctio molestiae?</p>
@@ -234,7 +234,7 @@ layout: false
 ```html
     <head>
         <title>Page title</title>
-        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="mystyle.css" />
     </head>
 ```
 
@@ -263,7 +263,7 @@ layout: false
   - a .highlight[selector] which identifies the HTML element
   - a .highlight[declaration block] which holds the formatting
 
-.left-column-50[<img src="selector_declaration.png" width="350px">]
+.left-column-50[<img src="selector_declaration.png" width="350px" />]
 
 .right-column-50[
 - Selector points to the HTML element to style
@@ -370,7 +370,7 @@ You can download a copy of the site [ep1000_htmlcss.zip](ep1000_htmlcss.zip) con
 Only the HTML file is included, you need to create the stylesheet.
 ]
 
-.right-column-50[<img src="project_div.png" target="_blank" width="400px">]
+.right-column-50[<img src="project_div.png" target="_blank" width="400px" />]
 
 <!-- /Worked Example -->
 
@@ -553,7 +553,7 @@ template: default-page
 layout: false
 # Worked Tutorial
 
-- Jake Wright - [Learn CSS in 12 minutes]()
+- Jake Wright - [Learn CSS in 12 minutes](https://www.youtube.com/0afZj1G0BIE)
   - shows the creation of a site content (not much)
   - shows how an effective layout can be planned
   - shows creation of a simple Project Site
@@ -593,7 +593,7 @@ layout: false
         <div id="container">
             <div id="header">
                 <h1>My Website</h1>
-                <link rel="stylesheet" type="text/css" href="style.css">
+                <link rel="stylesheet" type="text/css" href="style.css" />
             </div> 
             <div id="content">
                 <div id="nav">
