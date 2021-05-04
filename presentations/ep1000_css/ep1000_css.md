@@ -553,7 +553,7 @@ template: default-page
 layout: false
 # Worked Tutorial
 
-- Jake Wright - [Learn CSS in 12 minutes](https://youtu.be/0afZj1G0BIE)
+- Jake Wright - <a href="https://youtu.be/0afZj1G0BIE" target="_blank">Learn CSS in 12 minutes</a>
   - shows the creation of a site content (not much)
   - shows how an effective layout can be planned
   - shows creation of a simple Project Site
