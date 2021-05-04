@@ -736,6 +736,7 @@ layout: false
 - Due 2 weeks from this class session
 - More information will come in the next class.
 
+.footnote[Sample: [Minimal Site](sample_minimal_site.gif)]
 <!-- /Marked Assignment  -->
 
 
