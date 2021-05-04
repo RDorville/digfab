@@ -1,4 +1,5 @@
 /*
+  v1.0061 left-column-30, right-column 70
   v1.006 added clearboth
   v1.005  left-colun-20, right-column-70
   v1.004  Uses Fira Sans as a better alternative. A 500 is darker
@@ -122,45 +123,46 @@ code {
 }
 
 /* Two-column layout */
-.left-column-20 {
-  color: #777;
-  width: 20%;
-  height: 92%;
+
+.left-column-30{
+  width: 24%;
   float: left;
 }
-  .left-column h2:last-of-type, .left-column h3:last-child {
-    color: #000;
-  }
-.right-column-70 {
-  width: 75%;
+
+.right-column-70{
+  width: 72%;
   float: right;
-  padding-top: 1em;
 }
+
+
 .left-column-60 {
   width: 60%;
   height: 92%;
   float: left;
 }
+
 .right-column-40 {
   width: 35%;
   float: right;
   padding-top: 1em;
 }
+
 .left-column-50 {
   width: 48%;
   height: 92%;
   float: left;
 }
+
 .right-column-50 {
   width: 48%;
   float: right;
 }
 
-.clearboth {
+.clearfix::after {
+  content: "clear both floats";
   clear: both;
   display: table;
 }
-
 
 /* colors */
 .red { color: #fa0000; }
