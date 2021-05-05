@@ -159,7 +159,7 @@ code {
 }
 
 .clearfix::after {
-  content: "clear both floats";
+  content: " ";
   clear: both;
   display: table;
 }
