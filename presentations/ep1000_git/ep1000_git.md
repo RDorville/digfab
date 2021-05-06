@@ -368,9 +368,132 @@ layout: false
 <!-- /Typical Workflow -->
 
 ---
+name: GitHub Desktop
+template: default-page
+layout: false
+# GitHub Desktop
+
+### Sign in
+
+- Check that credentials are correct
+- Check the email and user name is correct
+- You will be asked by Github to login and verify
+
+<img src="gd_signin.png" alt="Sign in.png">
+
+.footnote[.highlight[git config] to register your credentials]
+
+<!-- /GitHub Desktop -->
+
+
+---
+name: CreateYour Repository
+template: default-page
+layout: false
+# CreateYour Repository
+
+<img src="gd_newrepository" alt="New Repository" style:"width:200px">
+
+<img src="gd_createrepository" alt="Create new repository" style:"width:480px">
+
+.footnote[.highlight[git init / clone]]
+
+<!-- /CreateYour Repository -->
+
+---
+name: First Commit
+template: default-page
+layout: false
+# First Commit
+
+<img src="gd_files.png" alt="Project files" style:"width:20px">
+
+<img src="gd_addcoommitpush.png" alt="Add Commit Push" style:"width:640px">
+
+.footnote[.highlight[git add ; git commit -m ; git push]]
+
+<!-- /First Commit -->
+
+---
+name: gitHub Repository
+template: default-page
+layout: false
+# gitHub Repository
+
+Contents of GitHub Repository
+
+<img src="gd_ghfiles.png" alt="GitHub Repository Files" style:"width:640px">
+
+<img src="gh_repofiles" alt="Github Repository Files" style:"width:640px">
+
+<!-- /gitHub Repository -->
+
+
+---
+name: Add File
+template: default-page
+layout: false
+# Add File(s)
+
+- Add/Create new files
+- Save to your Local Repository
+- (or) Sync to your Remote repository
+
+<img src="gd_addfile.png" alt="Add new files" style:"width:640px">
+
+.footnote[.highlight[git add], .highlight[git commit -m], and .highlight[git push]]
+
+<!-- /Add File -->
+
+
+---
+name: What has changed?
+template: default-page
+layout: false
+# What has changed?
+
+- Shows which files have changed since the last commit
+
+<img src="gd_changes.png" alt="File Changes" style:"width:640px">
+
+.footnote[.highlight[git status]]
+
+<!-- /What has changed? -->
+
+
+---
+name: What Has Been Done So Far?
+template: default-page
+layout: false
+# What Has Been Done So Far?
+
+- Shows the history of the repository (since conception)
+
+<img src="gd_history.png" alt="Repository History" style:"width:640px">
+
+.footnote[.highlight[git log]]
+
+<!-- /What Has Been Done So Far? -->
+
+
+---
+name: Restore Old Files
+template: default-page
+layout: false
+# Restore Old Files
+
+- Restore the files you were previously working on
+- Rolls back history
+
+<img src="gd_restoreoldfiles.png" alt="Restore Old Files" style:"width:640px">
+
+.footnote[.highlight[git checkout]]
+
+<!-- /Recover Old Files -->
+---
 class: center, middle
 
-# EP1000<br>CSS
+# EP1000<br>git & gitHub
 
 ### .red[End]
 
