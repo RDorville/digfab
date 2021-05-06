@@ -1,5 +1,5 @@
 /*
-  v1.0061 left-column-30, right-column 70
+  v1.0061 fixed left/right columns
   v1.006 added clearboth
   v1.005  left-colun-20, right-column-70
   v1.004  Uses Fira Sans as a better alternative. A 500 is darker
@@ -125,15 +125,26 @@ code {
 /* Two-column layout */
 
 .left-column-30{
-  width: 24%;
+  width: 30%;
+    height: 92%;
   float: left;
 }
 
 .right-column-70{
-  width: 72%;
+  width: 70%;
   float: right;
 }
 
+.left-column-40{
+  width: 40%;
+    height: 92%;
+  float: left;
+}
+
+.right-column-60{
+  width: 60%
+  float:right;
+}
 
 .left-column-60 {
   width: 60%;
@@ -142,9 +153,8 @@ code {
 }
 
 .right-column-40 {
-  width: 35%;
+  width: 40%;
   float: right;
-  padding-top: 1em;
 }
 
 .left-column-50 {

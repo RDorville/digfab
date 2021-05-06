@@ -351,21 +351,49 @@ $
 <!-- /Working with Others -->
 
 ---
-name: Typical Workflow
+name: Oops! I deleted a file!
 template: default-page
 layout: false
-# Typical Workflow
+# Oops! I deleted a file!
 
-<img src="typical_workflow.png" style="width:80%" >
+### How do you recover your missing file?
 
-1. Before you start work, .highlight[git pull]
-2. At the end of a work period:
-  - .highlight[git add .] to add your changed files
-  - .highlight[git commit - {message}] to copy to the local repository<br>
-  a comment is used to identify what you have done
-  - .highlight[git push] to sync your remote repository.
+- git stores the changes in the local repository
+- to retrieve previous versions, do a .highlight[git checkout]
 
-<!-- /Typical Workflow -->
+<img src="git_checkout.png" alt="git checkout" style="width:80%" >
+
+### Which file?
+
+- .highlight[git log] shows your history
+- you can recover your work at any point.
+- file is identified by its .highlight[hash] (checksum)
+
+<!-- /Oops! I deleted a file! -->
+
+---
+name: Good! I've fixed it!
+template: default-page
+layout: false
+# Good!  &nbsp;   I've fixed it!
+
+### Try something new
+
+- Split or .highlight[git branch] the original idea to start something new
+- Make changes to the original project (while keeping the original code)
+- Try different ideas simultaneously for your project
+
+### .highlight[HELP!]
+
+- try Google first
+- watch a few tutorials
+- there's always [Pro Git]()
+- try this:
+  - move your local files to another folder
+  - re-clone the project/repository
+  - recover your local vs remote changes manually
+
+<!-- /Good! I've fixed it! -->
 
 ---
 name: GitHub Desktop
@@ -387,18 +415,21 @@ layout: false
 
 
 ---
-name: CreateYour Repository
+name: Create Your Repository
 template: default-page
 layout: false
-# CreateYour Repository
+# Create Your Repository
 
-<img src="gd_newrepository" alt="New Repository" style:"width:200px">
+.left-column-50[<img src="gd_newrepository.png" alt="New Repository" style:"width:95%">]
 
-<img src="gd_createrepository" alt="Create new repository" style:"width:480px">
+.right-column-50[<img src="gd_createrepository.png" alt="Create new repository" style:"width:90%">]
+
+.clearfix[&nbsp;]
+
 
 .footnote[.highlight[git init / clone]]
 
-<!-- /CreateYour Repository -->
+<!-- /Create Your Repository -->
 
 ---
 name: First Commit
@@ -406,9 +437,11 @@ template: default-page
 layout: false
 # First Commit
 
-<img src="gd_files.png" alt="Project files" style:"width:20px">
+.left-column-40[<img src="gd_files.png" alt="Project files" style="width:90%">]
 
-<img src="gd_addcoommitpush.png" alt="Add Commit Push" style:"width:640px">
+.right-column-60[<img src="gd_addcommitpush.png" alt="Add Commit Push" style="width:60%" >]
+
+.clearfix[&nbsp;]
 
 .footnote[.highlight[git add ; git commit -m ; git push]]
 
@@ -422,9 +455,7 @@ layout: false
 
 Contents of GitHub Repository
 
-<img src="gd_ghfiles.png" alt="GitHub Repository Files" style:"width:640px">
-
-<img src="gh_repofiles" alt="Github Repository Files" style:"width:640px">
+<img src="gh_repo_files.png" alt="Github Repository Files" style="width:90%">
 
 <!-- /gitHub Repository -->
 
@@ -435,11 +466,13 @@ template: default-page
 layout: false
 # Add File(s)
 
-- Add/Create new files
+.left-column-30[- Add/Create new files
 - Save to your Local Repository
-- (or) Sync to your Remote repository
+- (or) Sync to your Remote repository]
 
-<img src="gd_addfile.png" alt="Add new files" style:"width:640px">
+.right-column-70[<img src="gd_addfile.png" alt="Add new files" style="width:95%">]
+
+.clearfix[&nbsp;]
 
 .footnote[.highlight[git add], .highlight[git commit -m], and .highlight[git push]]
 
@@ -454,7 +487,7 @@ layout: false
 
 - Shows which files have changed since the last commit
 
-<img src="gd_changes.png" alt="File Changes" style:"width:640px">
+<img src="gd_changes.png" alt="File Changes" style="width:90%" >
 
 .footnote[.highlight[git status]]
 
@@ -469,7 +502,7 @@ layout: false
 
 - Shows the history of the repository (since conception)
 
-<img src="gd_history.png" alt="Repository History" style:"width:640px">
+<img src="gd_history.png" alt="Repository History" style="width:95%">
 
 .footnote[.highlight[git log]]
 
@@ -485,11 +518,21 @@ layout: false
 - Restore the files you were previously working on
 - Rolls back history
 
-<img src="gd_restoreoldfiles.png" alt="Restore Old Files" style:"width:640px">
+<img src="gd_restoreoldfiles.png" alt="Restore Old Files" style="width:640px">
 
 .footnote[.highlight[git checkout]]
 
 <!-- /Recover Old Files -->
+
+---
+name: Assignment 
+template: default-page
+layout: false
+# Assignment (Part 2)
+
+
+
+<!-- /Assignment  -->
 ---
 class: center, middle
 
