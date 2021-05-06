@@ -525,12 +525,29 @@ layout: false
 <!-- /Recover Old Files -->
 
 ---
-name: Assignment 
+name: Marked Assignment (..3)
 template: default-page
 layout: false
-# Assignment (Part 2)
+# Marked Assignment (..3)
 
+# Final Part
 
+- Create a GitHub Repository .highlight[EP1000]
+- Move your project website into this repository.
+- Convert the repository into GitHub pages
+
+## Submission
+
+- Open https://tinyurl.com/ep1000sites (EP1000-Y21S01-01-Documentation)
+- Next to your name, enter the URL of your Project Documentation Site
+- This site will be used for marking.
+  - You will need to maintain and update your site
+  - Please .highlight[ENSURE] that the site works.
+- First deadline: .highlight[2 Weeks] from this class
+
+## Problems
+
+- Telegram-message the Class Group
 
 <!-- /Assignment  -->
 ---

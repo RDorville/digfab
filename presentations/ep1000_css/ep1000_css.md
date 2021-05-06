@@ -1,3 +1,4 @@
+
 name: default-page
 layout: true
 background-image: url("fablabsp_icon_100px.png")
