@@ -120,7 +120,7 @@ layout: false
 
 Note down your .highlight[URL].
 
-Eg. https://.highlight[username].gitub.io/test
+Eg. https://.highlight[username].github.io/test
 ]
 
 <!-- /GitHub Pages -->
@@ -395,6 +395,35 @@ layout: false
 
 <!-- /Good! I've fixed it! -->
 
+---
+name: Typical Git Workday
+template: default-page
+layout: false
+# Typical Git Workday
+
+### Morning - Just started work on project
+
+- .highlight[git pull] bring down any changed files.
+- work on project (add, delete, change)
+- .highlight[git commit] any significant changes
+- work more...
+
+### Coffee break!
+
+- .highlight[git add], .highlight[git commit] so save on Local repo
+
+### Lunch
+
+- .highlight[git add], .highlight[git commit] to save position
+- keep working on project
+
+### 5:00pm!
+
+- .highlight[git add], .highlight[git commit] to save all changes and work done for the day
+- .highlight[git push] to synchronise with remote repository
+
+
+<!-- /Typical Git Workday -->
 ---
 name: GitHub Desktop
 template: default-page
